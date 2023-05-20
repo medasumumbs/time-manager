@@ -1,0 +1,22 @@
+/* My own taste, bulma doesn't make these margins */
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Redefining the color of hovered deed */
+.table.is-hoverable tbody tr:not(.is-selected):hover {
+  background-color: rgba(240, 240, 240, 0.664);
+}
+
+.table.is-hoverable.is-striped tbody tr:not(.is-selected):hover {
+  background-color: rgba(240, 240, 240, 0.664);
+}
+
+.table.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.navbar-shell{
+  background-color: initial;
+}
